@@ -62,11 +62,11 @@ body {
 	scroll-behavior: smooth;
 	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 	border-radius: 0%;
-	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
-	scrollbar-width: none; /* Hide scrollbar Firefox */
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+
 .slider::-webkit-scrollbar {
 	display: none;
 }
@@ -101,3 +101,65 @@ body {
 	opacity: 1;
 }
 
+/* End Of Slider Code*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0%;
+}
+
+
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap ;
+}
+
+.card {
+	background: white;
+	width: 220px;
+	margin: 10px;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-image {
+	background-color: gray;
+	height: 150px;
+	margin-top: 15px;
+	background-size: cover;
+
+}
+.depressed-1 {
+	background-image: url('https://media.istockphoto.com/id/1308753258/photo/loneliness-teenage-girls.jpg?s=170667a&w=0&k=20&c=qL9Cz6Spj782Fg2dxBsNDxBhe0MjC2l3pRCAIgdTPYs=');
+}
+
+.depressed-2 {
+	background-image: url('https://thumbs.dreamstime.com/b/side-view-portrait-sad-depressed-black-man-sitting-bench-park-sad-depressed-black-man-bench-park-177762638.jpg')
+}
+.depressed-3 {
+	background-image: url('https://freerangestock.com/sample/140884/depressed-man--adult-depression.jpg');
+}
+
+.card h2 {
+	padding: 10px;
+}
+
+.card p {
+	padding: 10px;
+}
+
+.card a {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+
+}
+.card:hover {
+	background-color: rgb(62, 62, 62);
+	color: white;
+	cursor: pointer;
+}
